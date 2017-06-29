@@ -14,6 +14,7 @@ public class TestHelloWorld {
     ApplicationContext ac=new ClassPathXmlApplicationContext("applicationContent.xml");
 	 Hello hello=	(Hello) ac.getBean("hello");
 	 System.out.println(hello.DoSalutation());
+	 System.out.println("hh");
 	}
 
 }
